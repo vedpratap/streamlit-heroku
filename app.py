@@ -8,7 +8,7 @@ st.header('User Input Parameters')
 def user_input_features():
     first_number = st.number_input("first_number")
     second_number = st.number_input("second_number")
-    data = {'first_number': first_number,'second_number': second_number}
+    data = {'first_number': int(first_number),'second_number': int(second_number)}
     features = pd.DataFrame(data, index=[0])
     return features
 
