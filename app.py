@@ -16,4 +16,4 @@ df = user_input_features()
 
 st.subheader('Result')
 sum = df['first_number']+df['second_number']
-st.write("The sum of given 2 numbers is", sum[0])
+st.write("The sum of given 2 numbers is", sum)
